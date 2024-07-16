@@ -1,0 +1,791 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('Rubik-Black.woff2') format('woff2'),
+        url('Rubik-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('Rubik-ExtraBold.woff2') format('woff2'),
+        url('Rubik-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-SemiBold.woff2') format('woff2'),
+        url('../fonts/Rubik-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Regular.woff2') format('woff2'),
+        url('../fonts/Rubik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Medium.woff2') format('woff2'),
+        url('../fonts/Rubik-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Light.woff2') format('woff2'),
+        url('../fonts/Rubik-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Bold.woff2') format('woff2'),
+        url('../fonts/Rubik-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Recoleta DEMO';
+    src: url('../Recoleta-RegularDEMO.woff2') format('woff2'),
+        url('../Recoleta-RegularDEMO.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #0f1123;
+    font-family: 'Rubik', 'Recoleta DEMO';
+}
+
+
+
+/*Header Section Css Start Here*/
+header.headerSec {
+    padding: 30px 20px;
+    top: -100px;
+    transition: all 0.9s ease-in-out;
+}
+
+header.headerSec .headerRightBox {
+    display: flex;
+    width: 100%;
+}
+
+.headerSec .cstmNavbar ul li a {
+    color: #a1a0a8;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 7px 15px !important;
+}
+
+.headerSec .cstmNavbar ul li a:hover,
+.headerSec .cstmNavbar ul li a.ActiveNav {
+    color: #fd6a5e;
+}
+
+.btnBox .cstmBTN {
+    background-color: rgb(255 105 41 / 15%);
+    color: #fd6a5e !important;
+    border: 1px solid #fd6a5e;
+    padding: 7px 30px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 50px;
+}
+
+
+/*Fix Header Css*/
+.stickyHeader {
+    position: fixed;
+    top: 0 !important;
+    right: 0;
+    left: 0;
+    z-index: 99;
+    background-color: #17192b;
+    box-shadow: rgb(255 39 91 / 20%) 0px 7px 29px 0px;
+}
+
+/*Header Section Css End Here*/
+
+
+/*Home Carousel Css Section Start Here*/
+.carousel_Sec {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.carousel_Sec .bannerContentBox {
+    padding-left: 8%;
+}
+
+.carousel_Sec .bannerContentBox>h2 {
+    font-size: 85px;
+    font-weight: 400;
+    font-family: 'Recoleta DEMO';
+    color: #fff;
+}
+
+.carousel_Sec .bannerContentBox>h2 span {
+    color: #ff275b;
+    text-decoration: underline;
+}
+
+.carousel_Sec .bannerContentBox p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #afafaf;
+    padding: 30px 0 30px;
+}
+
+
+.carousel_Sec .bannerContentBox .bannerBTN {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.appStoreBTN {
+    background-image: linear-gradient(90deg, #F57C35FA 0%, #f54a9b 100%);
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 7px 20px;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+    position: relative;
+}
+
+.appStoreBTN i {
+    font-size: 45px;
+    color: #fff;
+}
+
+.appStoreBTN span {
+    font-size: 16px;
+    color: #fff;
+}
+
+.appStoreBTN h2 {
+    font-size: 28px;
+    color: #fff;
+    margin: 0px;
+}
+
+.carousel_Sec .bannerContentBox .bannerBTN .seeIntroBTN {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.carousel_Sec .bannerContentBox .bannerBTN .seeIntroBTN i {
+    font-size: 28px;
+    color: #fff;
+}
+
+
+.carousel_Sec .banner_ImgBox {
+    position: relative;
+    padding: 0px 20px;
+}
+
+.carousel_Sec .banner_ImgBox .bannerImg1 {
+    position: absolute;
+    width: 83%;
+    top: 10%;
+    right: 17%;
+    z-index: 1;
+    animation: jumpTwo 10s infinite linear;
+}
+
+.carousel_Sec .banner_ImgBox .bannerImg2 {
+    position: absolute;
+    width: 35%;
+    top: 16%;
+    right: 0;
+    z-index: 2;
+    animation: jumpThree 10s infinite linear;
+}
+
+.carousel_Sec .banner_ImgBox .bannerImg3 {
+    position: absolute;
+    top: -7%;
+    left: 44%;
+    z-index: 1;
+}
+
+.carousel_Sec .banner_ImgBox .bannerImg4 {
+    position: absolute;
+    top: 4%;
+    right: 11%;
+    z-index: 1;
+}
+
+.carousel_Sec .banner_ImgBox .bannerImg6 {
+    position: absolute;
+    bottom: 4%;
+    left: 45%;
+    z-index: 1;
+    width: 18%;
+}
+
+.bannerImgShapeOverlay {
+    position: absolute;
+    width: 875px;
+    height: 875px;
+    border-radius: 50%;
+    /* left: -34%; */
+    right: 0;
+    top: -21%;
+    background: rgba(255, 255, 255, .1);
+    filter: blur(300px);
+    z-index: -1;
+}
+
+@-webkit-keyframes jumpTwo {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+
+    40% {
+        -webkit-transform: translate3d(0, 20px, 0);
+        transform: translate3d(0, 20px, 0)
+    }
+
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes jumpTwo {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+
+    40% {
+        -webkit-transform: translate3d(0, 20px, 0);
+        transform: translate3d(0, 20px, 0)
+    }
+
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@-webkit-keyframes jumpThree {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+
+    40% {
+        -webkit-transform: translate3d(0, -20px, 0);
+        transform: translate3d(0, -20px, 0)
+    }
+
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes jumpThree {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+
+    40% {
+        -webkit-transform: translate3d(0, -20px, 0);
+        transform: translate3d(0, -20px, 0)
+    }
+
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+/*Home Carousel Css Section End Here*/
+
+
+/*Why Choose Us Css Section Start Here*/
+.mainSecMargin {
+    margin: 120px 0px;
+}
+
+.headingSec h2 {
+    font-size: 65px;
+    font-weight: 400;
+    font-family: 'Recoleta DEMO';
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.headingSec h2::before {
+    content: '';
+    background: url(../images/banner_img_3.svg) no-repeat;
+    width: 120px;
+    height: 105px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.headingSec h2 span {
+    color: #ff275b;
+    text-decoration: underline;
+}
+
+
+.whychoose_Card {
+    padding: 30px 30px 40px 30px;
+    border: 1px solid #424242;
+    border-radius: 15px;
+    position: relative;
+}
+
+.whychoose_Card .whyChoose_iconBox {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whychoose_Card .whychoose_ContentBox h2 {
+    font-weight: 500;
+    font-size: 24px;
+    padding: 26px 0 20px;
+    color: #fff;
+}
+
+.whychoose_Card .whychoose_ContentBox p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #858585;
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+
+.whychoose_Card>h3 {
+    font-size: 22px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 30px;
+    display: none;
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    right: 30px;
+}
+
+.whychoose_Card:hover {
+    background: linear-gradient(111.21deg, #b526a6 -2.4%, #e14e66 46.51%, #e38039 93.12%);
+}
+
+.whychoose_Card:hover .whychoose_ContentBox {
+    visibility: hidden;
+}
+
+.whychoose_Card:hover>h3 {
+    display: block;
+
+}
+
+/*Why Choose Us Css Section End Here*/
+
+
+/*Team Managment Css Section Start Here*/
+.teamManagment .headingSec h2::before,
+.portFolioSec .headingSec h2::before,
+.clientFeedbackSec .headingSec h2::before,
+.app_ProductSec .headingSec h2::before {
+    content: '';
+    display: none;
+}
+
+.headingSec p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #afafaf;
+    margin: 10px 0px 0px;
+    text-align: center;
+}
+
+.managmentTabList ul {
+    position: relative;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: 5px solid rgba(255, 255, 255, .1);
+}
+
+.managmentTabList ul li {
+    width: 100%;
+}
+
+.managmentTabList ul li a {
+    color: #8a8994;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 50px 10px;
+    position: relative;
+}
+
+.managmentTabList ul li:nth-child(2) a {
+    justify-content: center;
+}
+
+.managmentTabList ul li:last-child a {
+    justify-content: end;
+}
+
+.managmentTabList ul li a span {
+    width: 35px;
+    height: 35px;
+    min-width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #fff;
+    background-color: #2a2b3d;
+    border-radius: 50%;
+}
+
+
+.managmentTabList ul li a.activeTabMenu::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: 0;
+    left: 0;
+    background: #ffd35b;
+    height: 5px;
+}
+
+.teamManagment .teamMangement_ContentBox {
+    background: rgba(243, 247, 248, .1);
+    box-shadow: inset 0px 2px 2px rgba(255, 255, 255, .15);
+    border-radius: 40px;
+    padding: 70px 75px;
+    margin-top: 85px;
+    position: relative;
+}
+
+.teamManagment .teamMangement_ContentBox .tabcontent img {
+    width: 100%;
+}
+
+.teamManagment .teamMangement_ContentBox>img.beforeShape {
+    position: absolute;
+    top: -57px;
+    right: -60px;
+    z-index: 1;
+}
+
+.teamManagment .teamMangement_ContentBox>img.afterShape {
+    position: absolute;
+    bottom: -80px;
+    left: -55px;
+    z-index: 1;
+}
+
+/*Team Managment Css Section End Here*/
+
+/*Connect App Css Section Start Here*/
+.connectAppSec .connectAppContentBox>span {
+    font-size: 15px;
+    color: #FF2759;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    letter-spacing: 1.8px;
+}
+
+.connectAppSec .connectAppContentBox>h2 {
+    font-size: 70px;
+    font-weight: 400;
+    font-family: 'Recoleta DEMO';
+    color: #fff;
+}
+
+.connectAppSec .connectAppContentBox>h2 span {
+    color: #ff275b;
+    text-decoration: underline;
+}
+
+.connectAppSec .connectAppContentBox p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #afafaf;
+    padding: 30px 0 30px;
+}
+
+.connectAppSec .cstmLogoMeta {
+    background: rgba(255, 255, 255, .1);
+    border-radius: 20px;
+    height: 170px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.connectAppSec .logoMetaLg {
+    height: 248px;
+    position: relative;
+}
+
+.connectAppSec .logoMetaLg .connectShapImg {
+    position: absolute;
+    bottom: -45px;
+    right: -50px;
+    width: 35%;
+    min-width: 105px;
+}
+
+.connectAppSec .cstmLogoMeta:hover {
+    background-color: #323444;
+    transform: perspective(945px) rotatey(16deg);
+}
+
+/*Connect App Css Section End Here*/
+
+/*Portfolio Css Section Start Here*/
+.cstmPortfolioCarousel {
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+.cstmPortfolioCarousel .portfolioCard {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.cstmPortfolioCarousel .owl-nav {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    position: absolute;
+    right: 0;
+    top: -110px;
+}
+
+.cstmPortfolioCarousel .owl-nav button {
+    width: 35px;
+    height: 35px;
+    background: #393648 !important;
+    border-radius: 50%;
+    font-size: 24px !important;
+    color: #fff !important;
+}
+
+/*Portfolio Css Section End Here*/
+
+
+/*Client Feedback Css Section Start Here*/
+.clientFeedbackSec {
+    position: relative;
+    padding: 240px 0;
+    z-index: 2;
+}
+
+.feedbackSliderCard p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #afafaf;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    line-height: 40px;
+}
+
+.feedbackSliderCard>h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.feedbackSliderCard>span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #afafaf;
+    text-align: center;
+    display: block;
+}
+
+.clientFeedback_SliderBox .feedbackCircle_AreaImg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    text-align: center;
+}
+
+.clientFeedback_SliderBox .feedbackCircle_AreaImg img {
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    width: auto;
+}
+
+/*Client Feedback Css Section End Here*/
+
+/*Product App Css Section Start Here*/
+.playStoreBTNBox a::after {
+    content: '';
+    background: url(../images/appstore-afterarrow.svg) no-repeat;
+    width: 80px;
+    position: absolute;
+    right: -100px;
+    height: 60px;
+    bottom: 0px;
+}
+
+.app_ProductSec .product_ImgBox {
+    position: relative;
+    margin-top: 80px;
+    transition: all 0.3s ease-in-out;
+}
+
+.app_ProductSec .product_ImgBox:hover {
+    transform: perspective(945px) rotatey(9deg);
+}
+
+.product_ImgBox .productImgBefore {
+    left: 10%;
+    top: -7%;
+    z-index: 3;
+    position: absolute;
+}
+
+.product_ImgBox .productImgAfter {
+    right: 0;
+    bottom: -70px;
+    z-index: 3;
+    position: absolute;
+}
+
+.appProductSecMargin {
+    margin-top: 250px;
+}
+
+/*Product App Css Section End Here*/
+
+/*Footer Css Section Start Here*/
+.footerSec {
+    background: url(../images/footer_img.png) no-repeat 50%;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    margin-top: 200px;
+}
+
+.footerSec .cstmInnerContainer {
+    background: linear-gradient(180deg, #0f1123, rgba(15, 17, 35, .83) 48.7%, #0f1123);
+    padding: 100px 0 10px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.footerCard>h2 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footerCard ul {
+    padding: 0px;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.footerCard ul li a {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerCard .footerHyperLink {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footerSec .copyright {
+    text-align: center;
+    font-size: 18px;
+    padding: 45px 0 0;
+    color: #afafaf;
+}
+
+.footerSec .cstmInnerContainer>img {
+    left: 9%;
+    bottom: -200px;
+    position: absolute;
+    z-index: -1;
+    animation: jumpThree 10s linear infinite;
+}
+
+/*Footer Css Section End Here*/

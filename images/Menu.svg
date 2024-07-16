@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30">
+	<title>download-svg</title>
+	<defs>
+		<image  width="24" height="18" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAASAgMAAAA8gvYNAAAAAXNSR0IB2cksfwAAAAlQTFRF////////AAAAjvTD7AAAAAN0Uk5Tzu8AuKGQtwAAABpJREFUeJxjFHVgYGD4zwilVjGAADEUVfQBAPneEANxsu8fAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer copy" href="#img1" x="3" y="6"/>
+</svg>
